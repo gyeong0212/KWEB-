@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>KWEB Survey Page</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<div>
+    <h3>KWEB Survey Page</h3>
+
+    <div class="KWEB Logo">
+    <img src="https://i.imgur.com/hSSFVSw.png" alt="KWEB Logo" width = 200>
+    </div>
+    
+    <a href="https://kwebofficial.com/" title="KWEB" target="_blank">KWEB Hompage</a>
+    
+    <div id="Survey">
+        <div class="Question">
+        <h4>1. Write your name.</h4>
+        <input type="text" name="username">
+        </div>
+
+        <div class="Question">
+        <h4>2. Write your student number.</h4>
+        <input type="text" name="studentnumber">
+        </div>
+
+        <div class="Question">
+        <h4>3. Select your member level.</h4>
+        <label><input type="radio" name="level" value="Admin">Admin</label>
+        <label><input type="radio" name="level" value="Intern">Intern</label>
+        <label><input type="radio" name="level" value="Qualified">Qualified</label>
+        </div>
+
+        <div class="Question">
+        <h4>4. Select all fields you are interested in.</h4>
+        <label><input type="checkbox" name="interested" value="Front-end">Front-end</label>
+        <label><input type="checkbox" name="interested" value="Back-end">Back-end</label>
+        <label><input type="checkbox" name="interested" value="Web security">Web security</label>
+        <label><input type="checkbox" name="interested" value="Etcetera">Etcetera</label>
+        <input type="text" name="interested">
+        </div>
+
+        <div class="Question">
+        <h4>5. Give us your overall evaluation and feedback about the previous study.</h4>
+        <textarea cols="80" rows="20"
+                placeholder=" "
+                name="evaluation and feedback">
+        </textarea>
+        <br>
+        <button type="submit">Submit your answers</button>
+        </div>
+    </div>
+</div>
+</body>
+</html>
