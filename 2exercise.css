@@ -1,0 +1,20 @@
+.title {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold
+    }
+
+.chapter-name {
+    font-size: 15px
+}
+.chapter2-name{
+    font-size: 15px;
+    font-weight: bold
+}
+.chapter2-name > .chapter3-name{
+    color: red
+}
+.chapter2-name > .chapter-name{
+    font-weight: normal;
+    color: blue
+}
