@@ -1,0 +1,49 @@
+div{
+    margin: 10px 0;
+}
+.header{
+    background-color: pink;
+    height: 70px;
+    border: 1px solid red;
+    width: 800px;
+    @media only screen and (max-width: 800px) {
+        width: 300px;
+    }
+}
+
+.navbar{
+    background-color: yellow;
+    border: 2px solid rgb(217, 196, 5);
+    width: 100px;
+    height: 300px;
+    display: inline-block;
+    
+    @media only screen and (max-width: 800px) {
+        width: 300px;
+        height: 140px;
+    }
+}
+.content{
+    background-color: skyblue;
+    border: 1px solid blue;
+    width: 690px;
+    height: 300px;
+    display: inline-block;
+
+    @media only screen and (max-width: 800px) {
+        width: 300px;
+        height: 400px;
+    }
+}
+.footer{
+    background-color: lightgreen;
+    clear: both;
+    height: 100px;
+    border: 1px solid green;
+    width: 800px;
+
+    @media only screen and (max-width: 800px) {
+        width: 300px;
+        height: 140px;
+    }
+}

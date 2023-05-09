@@ -1,0 +1,23 @@
+body{
+
+@media only screen and (max-width: 600px) {
+        background-color: skyblue;
+}
+@media only screen and (max-width: 1200px) and (min-width: 600px){
+         background-color: blue;
+     
+}
+@media only screen and (min-width: 1200px) {
+         background-color: darkblue;
+}
+}
+
+h1{
+    @media only screen and (max-width: 900px) {
+            background-color: white;
+    }
+    
+    @media only screen and (min-width: 900px) {
+            background-color: yellow;
+    }
+}
